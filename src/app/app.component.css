@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap");
+html,
+body {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  background-color: #222;
+  padding: 16px;
+  position: relative;
+  height: 100%;
+}
+h1 {
+  font-size: 2em;
+}
+.address-card {
+  max-width: 420px;
+  margin: 0 auto;
+}
+.address-card h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+.address-card label,
+.text-danger {
+  font-size: 12px;
+}
+.text-danger {
+  font-size: 12px;
+  margin-top: 8px;
+}
+.row.form-group + .text-danger {
+  margin-top: -8px;
+  margin-bottom: 16px;
+}

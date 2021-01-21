@@ -1,0 +1,19 @@
+<div class="card p-4 address-card">
+	<h1>El domicilio ha sido registrado</h1>
+	<table class="table table-striped">
+		<tbody>
+			<tr>
+				<td>Nombre Completo</td>
+				<td>{{user.firstName}} {{user.lastName}}</td>
+			</tr>
+			<tr>
+				<td>Dirección</td>
+				<td>{{user.street}} {{user.addressNumber}},<br>
+            {{user.neighborhood}}, {{user.zipCode}}.
+         </td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<button class="btn btn-primary" (click)="goBack()">Reintentar</button>
+</div>
